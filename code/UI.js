@@ -43,7 +43,6 @@ export const PageMain = styled.main`
 
 export const Title = styled.h1`
 	${({ colors }) =>
-		false &&
 		colors &&
 		css`
 			background: linear-gradient(to bottom left, ${colors[0]}, ${colors[1]});
@@ -53,7 +52,6 @@ export const Title = styled.h1`
 `
 export const ArticleStyle = styled.div`
 	${({ colors }) =>
-		false &&
 		colors &&
 		css`
 			h1 {
